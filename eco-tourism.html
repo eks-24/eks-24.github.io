@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sampah Beruang - eco tourism</title>
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+  <meta property="og:title" content="Sampah Beruang" />
+  <meta property="og:description" content="Kenali Lebih Dekat Produk Ramah Lingkungan Kami" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="https://eks-24.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Sampah Beruang" />
+  <meta property="og:locale" content="id_ID" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/comWa/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+  </style>
+</head>
+<body class="bg-gray-50">
+
+  <!-- Navbar -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-green-950 shadow-2xl w-full transition-all duration-300 ease-in-out">
+    <nav class="container mx-auto flex items-center justify-between p-2">
+      <div class="flex items-center">
+        <!-- Logo -->
+        <img src="img/logo.png" alt="Logo" class="w-24 md:w-44">
+      </div>
+      
+      <!-- Menu Button for Mobile -->
+      <button id="menu-button" class="p-4 text-white text-xl bg-green-950 rounded-md md:hidden">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <!-- Desktop Navbar Links -->
+      <div class="hidden md:flex space-x-6 font-semibold">
+        <a href="/" class="text-lg text-white hover:text-teal-700">Beranda</a>
+        <!-- <a href="#articles" class="text-lg text-white hover:text-teal-700">Artikel</a> -->
+        <a href="index.html#faq" class="text-lg text-white hover:text-teal-700">FAQ</a>
+        <a href="index.html#contact" class="text-lg text-white hover:text-teal-700">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Offcanvas Navbar (Mobile only) -->
+  <div id="offcanvas" class="fixed inset-0 bg-gray-800 bg-opacity-50 z-50 hidden">
+    <div class="absolute top-0 right-0 h-full bg-white w-64 transform translate-x-full transition-transform duration-300 ease-in-out" id="offcanvas-content">
+      <div class="flex justify-between p-4">
+        <span class="text-xl font-semibold">Menu</span>
+        <button id="close-button" class="text-xl">&times;</button>
+      </div>
+      <ul class="p-4 space-y-4">
+        <li><a href="/" class="block text-lg text-gray-700 hover:text-teal-700">Beranda</a></li>
+        <!-- <li><a href="#articles" class="block text-lg text-gray-700 hover:text-teal-700">Artikel</a></li> -->
+        <li><a href="index.html#faq" class="block text-lg text-gray-700 hover:text-teal-700">FAQ</a></li>
+        <li><a href="index.html#contact" class="block text-lg text-gray-700 hover:text-teal-700">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container mx-auto mt-40 px-4 py-8">
+
+    <div class="flex flex-col md:flex-row gap-8">
+      <!-- Gambar Produk -->
+      <div class="w-full md:w-1/3">
+        <img src="img/9644854_4194126.jpg" alt="Gambar Produk Ramah Lingkungan" class="w-full h-full object-cover rounded-lg shadow-lg">
+      </div>
+
+      <!-- Deskripsi Produk -->
+      <div class="w-full md:w-1/2 flex flex-col justify-center">
+        <h2 class="text-xl sm:text-3xl font-semibold text-green-600 mb-4">Kenali Lebih Dekat Produk Ramah Lingkungan Kami</h2>
+        <p class="text-base sm:text-lg text-gray-700 mb-4">
+          Produk kami dirancang dengan tujuan untuk mendukung gaya hidup yang lebih ramah lingkungan. Kami menawarkan berbagai pilihan, mulai dari maggot untuk pakan ternak yang efisien, eco enzim yang dapat digunakan untuk berbagai keperluan, hingga kerajinan tangan yang terbuat dari bahan daur ulang.
+        </p>
+        <ul class="text-base list-disc pl-6 text-gray-700 mb-4">
+          <li>Budidaya Maggot untuk Pakan Ternak</li>
+          <li>Eco Enzim untuk Kesehatan dan Kebersihan</li>
+          <li>Kerajinan Daur Ulang untuk Dekorasi dan Aksesori</li>
+        </ul>
+        <p class="text-base sm:text-lg text-gray-700">
+          Bergabunglah dalam gerakan produk ramah lingkungan dan bantu kami menciptakan masa depan yang lebih hijau dan berkelanjutan.
+        </p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="container mx-auto px-6 py-10">
+      <!-- Footer Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+  
+        <!-- Logo and Description (Centered on Mobile) -->
+        <div class="text-center md:text-left">
+          <img src="img/logo.png" alt="Logo" class="w-56 mb-4 mx-auto md:mx-0">
+          <p class="text-sm leading-relaxed">
+            Solusi bagi masalah sampah dengan mengubahnya menjadi produk bernilai
+          </p>
+        </div>
+  
+        <!-- Address and Contact (Hidden on Mobile) -->
+        <div class="hidden md:block">
+          <h2 class="font-semibold text-lg mb-3">Kontak Kami</h2>
+          <ul class="space-y-3 text-sm">
+            <li><i class="fas fa-envelope"></i> sampahberuang2024@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> alamat</li>
+            <li>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d293.7035519218207!2d112.62647266218119!3d-7.938001232745293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1733549588366!5m2!1sid!2sid" 
+                width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Quick Links (Hidden on Mobile) -->
+        <div class="hidden md:block">
+          <h2 class="font-semibold text-lg mb-3">Quick Links</h2>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/" class="hover:text-white">Beranda</a></li>
+            <!-- <li><a href="#" class="hover:text-white">Artikel</a></li> -->
+            <li><a href="#faq" class="hover:text-white">FAQ</a></li>
+            <li><a href="#contact" class="hover:text-white">Kontak</a></li>
+          </ul>
+        </div>
+  
+        <!-- Social Media (Centered on Mobile) -->
+        <div class="text-center md:text-left">
+          <h2 class="font-semibold text-lg mb-3">Ikuti Kami</h2>
+          <div class="flex items-center justify-center md:justify-center space-x-6 text-2xl ">
+            <!-- Facebook -->
+            <a href="https://facebook.com/" class="text-gray-300 hover:text-white">
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            
+            <!-- Shopee -->
+            <a href="https://shopee.co.id/" class="hover:opacity-80 flex items-center">
+              <img src="img/shp.png" alt="Shopee" class="w-16">
+            </a>
+            
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/sampahberuang/" class="text-gray-300 hover:text-white">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            
+            <!-- TikTok -->
+            <a href="#https://www.tiktok.com/@sampah.beruang?_t=8rtB9m9sWC0&_r=1" class="text-gray-300 hover:text-white">
+              <i class="fa-brands fa-tiktok fa-lg"></i>
+            </a>
+          </div>
+        </div>        
+  
+      </div>
+  
+      <!-- Copyright -->
+      <div class="mt-10 border-t border-gray-700 pt-6 text-center">
+        <p class="text-sm">&copy; 2024 Sampah Beruang</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sampah Beruang - Tentang Kami</title>
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+  <meta property="og:title" content="Sampah Beruang" />
+  <meta property="og:description" content="Solusi bagi masalah sampah dengan mengubahnya menjadi produk bernilai" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="https://eks-24.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Sampah Beruang" />
+  <meta property="og:locale" content="id_ID" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/comWa/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+  </style>
+</head>
+<body class="bg-gray-50">
+
+  <!-- Navbar -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-green-950 shadow-2xl w-full transition-all duration-300 ease-in-out">
+    <nav class="container mx-auto flex items-center justify-between p-2">
+      <div class="flex items-center">
+        <!-- Logo -->
+        <img src="img/logo.png" alt="Logo" class="w-24 md:w-44">
+      </div>
+      
+      <!-- Menu Button for Mobile -->
+      <button id="menu-button" class="p-4 text-white text-xl bg-green-950 rounded-md md:hidden">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <!-- Desktop Navbar Links -->
+      <div class="hidden md:flex space-x-6 font-semibold">
+        <a href="/" class="text-lg text-white hover:text-teal-700">Beranda</a>
+        <!-- <a href="#articles" class="text-lg text-white hover:text-teal-700">Artikel</a> -->
+        <a href="index.html#faq" class="text-lg text-white hover:text-teal-700">FAQ</a>
+        <a href="index.html#contact" class="text-lg text-white hover:text-teal-700">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Offcanvas Navbar (Mobile only) -->
+  <div id="offcanvas" class="fixed inset-0 bg-gray-800 bg-opacity-50 z-50 hidden">
+    <div class="absolute top-0 right-0 h-full bg-white w-64 transform translate-x-full transition-transform duration-300 ease-in-out" id="offcanvas-content">
+      <div class="flex justify-between p-4">
+        <span class="text-xl font-semibold">Menu</span>
+        <button id="close-button" class="text-xl">&times;</button>
+      </div>
+      <ul class="p-4 space-y-4">
+        <li><a href="/" class="block text-lg text-gray-700 hover:text-teal-700">Beranda</a></li>
+        <!-- <li><a href="#articles" class="block text-lg text-gray-700 hover:text-teal-700">Artikel</a></li> -->
+        <li><a href="index.html#faq" class="block text-lg text-gray-700 hover:text-teal-700">FAQ</a></li>
+        <li><a href="index.html#contact" class="block text-lg text-gray-700 hover:text-teal-700">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+<main class="mt-16 sm:mt-28">
+  <!-- Hero Section -->
+  <section class="bg-green-700 text-white text-center py-16">
+    <div class="container mx-auto">
+      <h1 class="text-4xl sm:text-5xl font-bold mb-4">Tentang Kami</h1>
+      <p class="text-xl sm:text-2xl">Sampah Beruang fokus pada daur ulang sampah yang menjadi produk</p>
+    </div>
+  </section>
+
+  <!-- Section Tentang Kami -->
+  <section class="py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-green-700 mb-8">Mengenal Perusahaan Kami</h2>
+      <p class="text-lg text-gray-700 mb-4">Kami adalah perusahaan yang bergerak di bidang produk ramah lingkungan, dengan fokus utama pada inovasi dan keberlanjutan. Dengan pendekatan berbasis teknologi, kami menyediakan produk dan solusi untuk meningkatkan kesejahteraan lingkungan dan manusia.</p>
+      
+      <p class="text-lg text-gray-700 mb-6">Visi kami adalah menjadi pelopor dalam pengelolaan sampah dan budidaya maggot yang dapat memberikan manfaat maksimal bagi peternak, petani, dan masyarakat secara umum. Misi kami adalah menyediakan produk ramah lingkungan yang dapat membantu mengurangi dampak negatif terhadap planet ini, serta meningkatkan kualitas hidup masyarakat.</p>
+
+      <div class="flex flex-col sm:flex-row justify-around items-center">
+        <div class="w-full sm:w-1/3 p-6">
+          <h3 class="text-xl font-semibold text-green-700 mb-4">Visi Kami</h3>
+          <p class="text-gray-700">Menjadi perusahaan terdepan dalam solusi lingkungan melalui produk inovatif yang mendukung keberlanjutan.</p>
+        </div>
+        <div class="w-full sm:w-1/3 p-6">
+          <h3 class="text-xl font-semibold text-green-700 mb-4">Misi Kami</h3>
+          <p class="text-gray-700">Memberikan produk yang berfokus pada pengolahan sampah organik, budidaya maggot, serta pengembangan komunitas yang lebih berkelanjutan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Layanan Kami -->
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-green-700 mb-8">Layanan Kami</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Layanan 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-green-700 mb-4">Pelatihan Budidaya Maggot</h3>
+          <p class="text-gray-700">Kami menyediakan pelatihan untuk budidaya maggot sebagai solusi ramah lingkungan untuk pakan ternak.</p>
+        </div>
+        <!-- Layanan 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-green-700 mb-4">Pengolahan Sampah Organik</h3>
+          <p class="text-gray-700">Layanan pengolahan sampah organik menjadi kompos dan produk ramah lingkungan lainnya untuk mendukung keberlanjutan.</p>
+        </div>
+        <!-- Layanan 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-green-700 mb-4">Pengembangan Komunitas Berkelanjutan</h3>
+          <p class="text-gray-700">Kami aktif dalam pengembangan komunitas dengan program-program yang mendukung pertanian dan peternakan ramah lingkungan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="container mx-auto px-6 py-10">
+      <!-- Footer Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+  
+        <!-- Logo and Description (Centered on Mobile) -->
+        <div class="text-center md:text-left">
+          <img src="img/logo.png" alt="Logo" class="w-56 mb-4 mx-auto md:mx-0">
+          <p class="text-sm leading-relaxed">
+            Solusi bagi masalah sampah dengan mengubahnya menjadi produk bernilai
+          </p>
+        </div>
+  
+        <!-- Address and Contact (Hidden on Mobile) -->
+        <div class="hidden md:block">
+          <h2 class="font-semibold text-lg mb-3">Kontak Kami</h2>
+          <ul class="space-y-3 text-sm">
+            <li><i class="fas fa-envelope"></i> sampahberuang2024@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> alamat</li>
+            <li>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d293.7035519218207!2d112.62647266218119!3d-7.938001232745293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1733549588366!5m2!1sid!2sid" 
+                width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Quick Links (Hidden on Mobile) -->
+        <div class="hidden md:block">
+          <h2 class="font-semibold text-lg mb-3">Quick Links</h2>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/" class="hover:text-white">Beranda</a></li>
+            <!-- <li><a href="#" class="hover:text-white">Artikel</a></li> -->
+            <li><a href="#faq" class="hover:text-white">FAQ</a></li>
+            <li><a href="#contact" class="hover:text-white">Kontak</a></li>
+          </ul>
+        </div>
+  
+        <!-- Social Media (Centered on Mobile) -->
+        <div class="text-center md:text-left">
+          <h2 class="font-semibold text-lg mb-3">Ikuti Kami</h2>
+          <div class="flex items-center justify-center md:justify-center space-x-6 text-2xl ">
+            <!-- Facebook -->
+            <a href="https://facebook.com/" class="text-gray-300 hover:text-white">
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            
+            <!-- Shopee -->
+            <a href="https://shopee.co.id/" class="hover:opacity-80 flex items-center">
+              <img src="img/shp.png" alt="Shopee" class="w-16">
+            </a>
+            
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/sampahberuang/" class="text-gray-300 hover:text-white">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            
+            <!-- TikTok -->
+            <a href="#https://www.tiktok.com/@sampah.beruang?_t=8rtB9m9sWC0&_r=1" class="text-gray-300 hover:text-white">
+              <i class="fa-brands fa-tiktok fa-lg"></i>
+            </a>
+          </div>
+        </div>        
+  
+      </div>
+  
+      <!-- Copyright -->
+      <div class="mt-10 border-t border-gray-700 pt-6 text-center">
+        <p class="text-sm">&copy; 2024 Sampah Beruang</p>
+      </div>
+    </div>
+  </footer>
+
+  <input class='chatMenu hidden' id='offchatMenu' type='checkbox'/>
+  <label class='chatButton' for='offchatMenu'>
+    <svg class='svg-1' viewBox='0 0 32 32'>
+      <g>
+        <path d='M16,2A13,13,0,0,0,8,25.23V29a1,1,0,0,0,.51.87A1,1,0,0,0,9,30a1,1,0,0,0,.51-.14l3.65-2.19A12.64,12.64,0,0,0,16,28,13,13,0,0,0,16,2Zm0,24a11.13,11.13,0,0,1-2.76-.36,1,1,0,0,0-.76.11L10,27.23v-2.5a1,1,0,0,0-.42-.81A11,11,0,1,1,16,26Z'></path>
+        <path d='M19.86,15.18a1.9,1.9,0,0,0-2.64,0l-.09.09-1.4-1.4.09-.09a1.86,1.86,0,0,0,0-2.64L14.23,9.55a1.9,1.9,0,0,0-2.64,0l-.8.79a3.56,3.56,0,0,0-.5,3.76,10.64,10.64,0,0,0,2.62,4A8.7,8.7,0,0,0,18.56,21a2.92,2.92,0,0,0,2.1-.79l.79-.8a1.86,1.86,0,0,0,0-2.64Zm-.62,3.61c-.57.58-2.78,0-4.92-2.11a8.88,8.88,0,0,1-2.13-3.21c-.26-.79-.25-1.44,0-1.71l.7-.7,1.4,1.4-.7.7a1,1,0,0,0,0,1.41l2.82,2.82a1,1,0,0,0,1.41,0l.7-.7,1.4,1.4Z'></path>
+      </g>
+    </svg>
+    <svg class='svg-2' viewBox='0 0 512 512'>
+      <path d='M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3L233.4 256l-68.2 68.2c-6.2 6.2-6.2 16.4 0 22.6 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z'></path>
+    </svg>
+  </label>
+  <div class='chatBox'>
+      <div class='chatContent'>
+        <div class='chatHeader'>
+          <img src='img/logo1.png' alt="LOGO" class="border bg-white"/>
+          <div class='chatTitle'>Sampah Beruang <span>Kami Akan Segera Merespon</span></div>
+        </div>
+        <div class='chatText'>
+          <span>Halo, Apa Ada Yang Bisa Kami Bantu?</span>
+          <span class='typing'>...</span>
+        </div>
+      </div>
+      <div class='chatStart'><input type='text' id='chatInput' placeholder='Tulis Pesan'/>
+      <a href='javascript:void;' id='send-it'>Kirim</a>
+      </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/comWa/javascript.js"></script>
+  
+  <script>
+    // JavaScript untuk menambahkan perubahan warna pada navbar saat scroll
+    const navbar = document.getElementById('navbar');
+    const menuButton = document.getElementById('menu-button');
+    const offcanvas = document.getElementById('offcanvas');
+    const closeButton = document.getElementById('close-button');
+    const offcanvasContent = document.getElementById('offcanvas-content');
+    const navbarLinks = navbar.getElementsByTagName('a');
+    const navbarbtn = document.getElementById('menu-button');
+    
+    // Show offcanvas on mobile
+    menuButton.addEventListener('click', () => {
+      offcanvas.classList.remove('hidden');
+      setTimeout(() => {
+        offcanvasContent.classList.remove('translate-x-full');
+      }, 10);
+    });
+
+    // Close offcanvas on mobile
+    closeButton.addEventListener('click', () => {
+      offcanvasContent.classList.add('translate-x-full');
+      setTimeout(() => {
+        offcanvas.classList.add('hidden');
+      }, 300);
+    });
+
+    // Optional: Close offcanvas if clicked outside
+    offcanvas.addEventListener('click', (e) => {
+      if (e.target === offcanvas) {
+        closeButton.click();
+      }
+    });
+
+    // Scroll event to apply blur effect on navbar when scrolling
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 0) {
+        // navbar.classList.add('backdrop-blur-lg', 'bg-green-950', 'shadow-2xl');
+
+        for (let i = 0; i < navbarLinks.length; i++) {
+          navbarLinks[i].classList.remove('text-white');
+          navbarLinks[i].classList.add('text-white');
+        }
+
+        navbarbtn.classList.remove('text-white');
+        navbarbtn.classList.add('text-white');
+      } else {
+        // navbar.classList.remove('backdrop-blur-lg', 'bg-green-950', 'shadow-2xl');
+
+        for (let i = 0; i < navbarLinks.length; i++) {
+          navbarLinks[i].classList.remove('text-white');
+          navbarLinks[i].classList.add('text-white');
+        }
+
+        navbarbtn.classList.remove('text-white');
+        navbarbtn.classList.add('text-white');
+      }
+    });
+
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault(); // Mencegah perilaku default
+
+        const targetElement = document.querySelector(this.getAttribute('href'));
+
+        // Melakukan scroll ke elemen yang dituju dengan efek smooth
+        targetElement.scrollIntoView({
+          behavior: 'smooth',  // Scroll dengan efek smooth
+          block: 'start'       // Tempatkan elemen di bagian atas viewport
+        });
+      });
+    });
+
+  </script>
+</body>
+</html>

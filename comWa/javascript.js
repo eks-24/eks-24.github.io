@@ -1,6 +1,6 @@
   $('#send-it').click(function() {
     var walink = 'https://web.whatsapp.com/send',
-        phone = '628123456789'; // Your WhatsApp number
+        phone = '6281314640283'; // Your WhatsApp number
     // Mobile Support
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         var walink = 'whatsapp://send';
